@@ -3,7 +3,7 @@ body {
     font-family: sans-serif; 
     height: 100vh;
 }
-nav {
+h1 {
    height: 70px;
    width: 100%;
    display: flex;
@@ -53,9 +53,9 @@ button:hover {
     border-radius: 5px;
 }
 #save-button:hover {
-    background-color: rgb(158, 243, 176);
+    background: linear-gradient(rgb(182, 182, 182),rgb(131, 236, 121));
 }
-input-box {
+#task {
     margin-left: 37vw;
 }
 

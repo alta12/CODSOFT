@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Calculator</title> 
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    </head>
+<body>
+<div id="screen"><span id="display"></span></div>
+<br>
+<div id="container">
+    <div class="con1">
+        <button id="x" onclick="display(this.id)">CLR</button>
+        <button id="/" onclick="display(this.id)">/</button>
+        <button id="*" onclick="display(this.id)">*</button>
+
+
+        <button id="7" onclick="display(this.id)">7</button>
+        <button id="8" onclick="display(this.id)">8</button>
+        <button id="9" onclick="display(this.id)">9</button>
+
+        <button id="4" onclick="display(this.id)">4</button>
+        <button id="5" onclick="display(this.id)">5</button>
+        <button id="6" onclick="display(this.id)">6</button>
+
+        <button id="1" onclick="display(this.id)">1</button>
+        <button id="2" onclick="display(this.id)">2</button>
+        <button id="3" onclick="display(this.id)">3</button>
+        
+        <button id="0" style="width: 150px;" onclick="display(this.id)">0</button>
+        <button id="." onclick="display(this.id)">.</button>
+    </div>
+    <div class="con2">
+        <button id="-" onclick="display(this.id)">-</button>
+        <button id="+" style="height: 150px;" onclick="display(this.id)">+</button>
+        <button id="=" style="height: 150px;" onclick="display(this.id)">=</button>
+    </div>
+
+
+</div>
+
+
+
+<body>
+<script src="../js/app.js"></script>
+</html>
